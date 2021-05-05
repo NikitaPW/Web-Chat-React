@@ -1,0 +1,35 @@
+.sidebar-chats {
+    flex: 1;
+    background-color: #242F3D;
+    overflow: hidden;
+}
+
+.sidebar-chat {
+    color: #66727D;
+    font-size: 12px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-chat > .MuiButtonBase-root {
+    color: #66727D;
+}
+.sidebar-chat > .MuiButtonBase-root:hover {
+    color: lightgray;
+}
+
+.sidebar-chat-info > p {
+    color: #4A81BC;
+    font-size: 14px !important;
+}
+
+.sidebar-chat > h2 {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFFFFF;
+}

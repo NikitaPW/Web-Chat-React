@@ -1,0 +1,78 @@
+.sidebar {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-search {
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    border-right: 1px solid rgba(0,0,0,0.25);
+    display:flex;
+    align-items: center;
+    background-color: #17212B;
+    height: 39px;
+    padding: 7px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #17212B;
+    width: 100%;
+    height: 35px;
+}
+
+.search-container > input {
+    border: none;
+    margin-left: 10px; 
+}
+
+.search-container > .MuiSvgIcon-root {
+    color: #66727D;
+    padding: 10px;
+}
+
+.sidebar-header-right > .MuiButtonBase-root {
+    color: #66727D;
+}
+
+.sidebar-header-right > .MuiButtonBase-root:hover {
+    color: lightgray;
+}
+.sidebar-header {
+    border-right: 1px solid rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #17212B;
+
+}
+
+.sidebar-header-right {
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    min-width: 10vw; 
+}
+
+.sidebar-header > .MuiSvgIcon-root {
+    margin-right: 2vw;
+    font-size: 20px  !important;
+}
+
+.new-message-container {
+    background-color: #17212B;
+    border-right: 1px solid rgba(0,0,0,0.25);
+    border-top: 1px solid rgba(0,0,0,0.25);
+    height: 62px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    
+}
+.search-input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #242F3D;
+}
